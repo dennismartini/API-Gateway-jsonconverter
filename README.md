@@ -18,6 +18,7 @@ go get -u [lista de pacotes Golang]
 
 # Dependências Node.js
 npm install [lista de pacotes Node.js]
+```bash
 Estrutura do Projeto
 O projeto é dividido em duas partes principais:
 
