@@ -18,7 +18,8 @@ go get -u [lista de pacotes Golang]
 
 # Dependências Node.js
 npm install [lista de pacotes Node.js]
-```bash
+```
+
 Estrutura do Projeto
 O projeto é dividido em duas partes principais:
 
@@ -31,7 +32,7 @@ Desenvolvimento:
 ```bash
 Copy code
 go run .\main.go -action="convert" -source="..\azure\dev\api-manager-sites" -index="1" -vpclinkid="r6hwarningsuvf" -aws-profile="teste-dev" -stage-name="dev" -apigateway-name="api-sites-loja" -targetfile="outputapisitesloja.json" -domain-name="api-sites-loja.develop.testetii.com.br" -deploy="false" -server-url="abb39ec342asfasfasf4ed12d98u98usd-109dd4ea79648ae0.elb.us-east-1.amazonaws.com" -fail-on-warnings="false" -account-id="1625346125436512" -lb-arn-uri="arn:aws:elasticloadbalancing:us-east-1:1625346125436512:listener/net/abb39ec342asfasfasf4ed12d98u98usd/109dd4ea79648ae0/4185f7182771cb96"
-```bash
+```
 ##Configurações de Comando
 As flags de linha de comando incluem:
 
