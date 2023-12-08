@@ -35,17 +35,31 @@ go run .\main.go -action="convert" -source="..\azure\dev\api-manager-sites" -ind
 
 ### Configurações de Comando
 As flags de linha de comando incluem:
+
 account-id: ID da conta AWS.
+
 lb-arn-uri: ARN do Load Balancer AWS.
+
 action: "convert" para a conversão.
+
 source: Caminho de origem dos YAMLs.
+
 index: Índice para geração dos arquivos.
+
 vpclinkid: ID do VPC Link AWS.
+
 aws-profile: Perfil AWS.
+
 stage-name: Nome do estágio (dev, hml).
+
 apigateway-name: Nome do API Gateway AWS.
+
 targetfile: Caminho do arquivo de destino.
+
 domain-name: Nome do domínio.
+
 deploy: Se deve realizar o deploy.
+
 server-url: URL do servidor.
+
 fail-on-warnings: Se deve falhar em caso de warnings.
