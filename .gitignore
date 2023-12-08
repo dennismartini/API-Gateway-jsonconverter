@@ -1,0 +1,5 @@
+output*.json
+*exported*.json
+*config*.json
+*.ignore
+*.wait
