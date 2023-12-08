@@ -36,17 +36,17 @@ go run .\main.go -action="convert" -source="..\azure\dev\api-manager-sites" -ind
 ### Configurações de Comando
 As flags de linha de comando incluem:
 
-account-id: ID da conta AWS.
+account-id: ID da conta AWS que será implementado se "deploy" for true
 
-lb-arn-uri: ARN do Load Balancer AWS.
+lb-arn-uri: ARN do Load Balancer AWS privado que responderá através da vpclink.
 
-action: "convert" para a conversão.
+action: "convert" (inalterável) para a conversão.
 
-source: Caminho de origem dos YAMLs.
+source: Caminho de origem dos YAMLs para converter
 
-index: Índice para geração dos arquivos.
+index: Índice para geração dos arquivos (utilize sempre 1)
 
-vpclinkid: ID do VPC Link AWS.
+vpclinkid: ID do VPC Link AWS que deve ser criado anteriormente para se comunicar com recursos privados.
 
 aws-profile: Perfil AWS.
 
